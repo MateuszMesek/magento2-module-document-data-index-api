@@ -2,11 +2,13 @@
 
 namespace MateuszMesek\DocumentDataIndexerApi;
 
-interface IndexNameResolverInterface
+use Traversable;
+
+interface EntityIdsResolverInterface
 {
     /**
      * @param \Magento\Framework\Indexer\Dimension[] $dimensions
-     * @return string
+     * @return \Traversable
      */
-    public function resolve(array $dimensions): string;
+    public function resolve(array $dimensions): Traversable;
 }

@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexerApi\Command;
+namespace MateuszMesek\DocumentDataIndexerApi;
 
 use Traversable;
 
-interface GetDocumentsByDimensionsAndEntityIdsInterface
+interface DataResolverInterface
 {
     /**
      * @param \Magento\Framework\Indexer\Dimension[] $dimensions
      * @param \Traversable $entityIds
      * @return \Traversable
      */
-    public function execute(array $dimensions, Traversable $entityIds): Traversable;
+    public function resolve(array $dimensions, Traversable $entityIds): Traversable;
 }

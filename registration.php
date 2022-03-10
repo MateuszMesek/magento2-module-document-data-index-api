@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'MateuszMesek_DocumentIndexerApi',
+    'MateuszMesek_DocumentDataIndexerApi',
     __DIR__
 );
