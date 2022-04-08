@@ -15,8 +15,5 @@
         "psr-4": {
             "MateuszMesek\\DocumentDataIndexApi\\": "src"
         }
-    },
-    "replace": {
-        "mateuszmesek-magento2/module-document-data-index-api": "*"
     }
 }
