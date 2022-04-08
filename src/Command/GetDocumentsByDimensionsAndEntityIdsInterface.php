@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexerApi\Command;
+namespace MateuszMesek\DocumentDataIndexApi\Command;
 
 use Traversable;
 
