@@ -2,11 +2,11 @@
 
 namespace MateuszMesek\DocumentDataIndexIndexerApi\Config;
 
-interface DataResolverInterface
+interface DimensionProviderInterface
 {
     /**
      * @param string $documentName
      * @return string|null
      */
-    public function getDataResolver(string $documentName): ?string;
+    public function getDimensionProvider(string $documentName): ?string;
 }

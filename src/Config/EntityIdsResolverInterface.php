@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexApi\Config;
+namespace MateuszMesek\DocumentDataIndexIndexerApi\Config;
 
 interface EntityIdsResolverInterface
 {

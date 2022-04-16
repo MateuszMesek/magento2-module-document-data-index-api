@@ -1,5 +1,5 @@
 {
-    "name": "mateuszmesek-magento2/module-document-data-index-api",
+    "name": "mateuszmesek-magento2/module-document-data-index-indexer-api",
     "description": "N/A",
     "type": "magento2-module",
     "require": {
@@ -13,7 +13,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "MateuszMesek\\DocumentDataIndexApi\\": "src"
+            "MateuszMesek\\DocumentDataIndexIndexerApi\\": "src"
         }
     }
 }
