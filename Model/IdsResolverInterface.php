@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexIndexerApi;
+namespace MateuszMesek\DocumentDataIndexIndexerApi\Model;
 
 use Traversable;
 
-interface EntityIdsResolverInterface
+interface IdsResolverInterface
 {
     /**
      * @param \Magento\Framework\Indexer\Dimension[] $dimensions

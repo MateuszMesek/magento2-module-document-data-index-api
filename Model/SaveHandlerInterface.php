@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexIndexerApi;
+namespace MateuszMesek\DocumentDataIndexIndexerApi\Model;
 
 use Traversable;
 
@@ -10,7 +10,7 @@ interface SaveHandlerInterface
      * @param \Magento\Framework\Indexer\Dimension[] $dimensions
      * @return bool
      */
-    public function isAvailable(array $dimensions = []): bool;
+    public function isAvailable(array $dimensions): bool;
 
     /**
      * @param \Magento\Framework\Indexer\Dimension[] $dimensions

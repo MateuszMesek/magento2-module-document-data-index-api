@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataIndexIndexerApi\Config;
+namespace MateuszMesek\DocumentDataIndexIndexerApi\Model\Config;
 
 interface IndexNameResolverInterface
 {
